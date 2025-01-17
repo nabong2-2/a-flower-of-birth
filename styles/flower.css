@@ -36,7 +36,7 @@
     width: 120px; height: 60px;
     padding: 0 12px;
     caret-color: #1ccaff; text-align: center;
-    font-family: gumi;
+    font-family: gumi; font-size: 2.50rem;
 }
 .container .contents .user_month_wrap #user_month::placeholder {
     font-family: yoony;
