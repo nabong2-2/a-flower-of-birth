@@ -1,0 +1,72 @@
+.container {
+    background: #eee;
+    padding: 100px 0; text-align: center;
+}
+.container .contents {
+    width: 800px; margin: 0 auto;
+    padding: 150px 0;
+    background-image: url(https://i.pinimg.com/736x/a5/6f/db/a56fdba83f157e1c4f377078c4beff63.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 50px; overflow: hidden;
+}
+.container .contents::before {
+    display: block; content: '';
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute; top: 0; left: 0;
+    z-index: 10;
+}
+.container .contents > * {
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 20;
+}
+.container .contents h1 {
+    font-size: 3.50rem; color: #fff;
+}
+.container .contents .user_month_wrap {
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 50px;
+}
+.container .contents .user_month_wrap #user_month {
+    background-color: rgb(241, 240, 240);
+    display: inline-block;
+    border-radius: 45px;
+    width: 120px; height: 60px;
+    padding: 0 12px;
+    caret-color: #1ccaff; text-align: center;
+    font-family: gumi;
+}
+.container .contents .user_month_wrap #user_month::placeholder {
+    font-family: yoony;
+    font-size: 1.25rem;
+    color: #b8b8b8;
+}
+.container .contents .user_month_wrap span {
+    margin-left: 15px;
+    color: #1ccaff; font-size: 2.00rem;
+}
+.container .contents .btn_bg {
+    background-color: #1ccaff; padding: 15px 0;
+    border-radius: 30px;
+    display: inline-block;
+    width: 50%
+}
+.container .contents .btn_bg button {
+    color: #222; font-size: 2.00rem;
+}
+.container .contents .user_result {
+    background-color: #23252e; 
+    display: none;
+    padding: 20px 150px;
+}
+.container .contents .user_result span {
+    color: #fff; font-size: 2.00rem;
+    margin-right: 5px; line-height: 1.5;
+}
+.container .contents .user_result .month {margin: 0; color: #1ccaff;}
+.container .contents .user_result .birth {
+    margin: 0; color: #1ccaff;
+}
+.container .contents .user_result .flowerwords {color: #1ccaff;}

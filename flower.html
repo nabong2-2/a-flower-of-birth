@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1~12월 탄생화 종류와 꽃말 메세지 출력하기 + 객체, 배열 활용</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/flower.css">
+    <script src="./script/flower.js" defer></script>
+</head>
+<body>
+    <!-- ### Q. 당신의 생일은 몇월인가요?
+    ex) 12월이라고 작성했다면?
+    **12월의 탄생화는 포인세티아이고 꽃말은 축하, 감사입니다.**
+    예시 결과) html, css, 이미지 등은 자유롭게 디자인&작성하세요. -->
+    <div class="container">
+        <div class="contents">
+            <h1>Q. 당신의 생일은 몇월인가요?</h1>
+            <div class="user_month_wrap">
+                <input type="number" name="user_month" id="user_month" placeholder="숫자만 입력" autofocus>
+                <span>월</span>
+            </div>
+            <div class="btn_bg"> <!-- 이거 왜더라 -->
+                <button type="button">확인하기</button>
+            </div>
+            <div class="user_result">
+                <span class="month"></span>
+                <span>월의 탄생화는</span>
+                <span class="birth"></span>
+                <span>(이)고, 꽃말은</span>
+                <span class="flowerwords"></span>
+                <span>입니다.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
