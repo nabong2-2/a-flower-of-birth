@@ -55,7 +55,7 @@
     width: 50%
 }
 .container .contents .btn_bg button {
-    color: #222; font-size: 2.00rem;
+    color: #222; font-size: 2.00rem; width: 100%;
 }
 .container .contents .user_result {
     background-color: #23252e; 
