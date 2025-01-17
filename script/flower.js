@@ -89,8 +89,10 @@ btn.addEventListener('click', () => {
         birth.textContent = birthday_flower[monthIndex].flower;
         flowerwords.textContent = birthday_flower[monthIndex].content;
     }else if (userMonth.value > 12 || userMonth.value < 0 ){
+        resultBox.style.display = 'none';
         alert('1에서 12까지의 숫자만 입력하세요.')
     }else {
+        resultBox.style.display = 'none';
         alert('다시 입력하세요.')
     }
 });
